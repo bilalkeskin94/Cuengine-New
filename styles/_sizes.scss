@@ -58,7 +58,7 @@ li {
   font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 319px) and (max-width: 1024px) {
   h1 {
     font-size: 1.4rem;
   }
@@ -70,6 +70,9 @@ li {
     font-size: 1.2rem;
   }
   li {
+    font-size: 1.4rem;
+  }
+  .nav-link {
     font-size: 1.4rem;
   }
 }

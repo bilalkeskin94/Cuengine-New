@@ -62,7 +62,7 @@ li {
   font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 319px) and (max-width: 1024px) {
   h1 {
     font-size: 1.4rem;
   }
@@ -74,6 +74,9 @@ li {
     font-size: 1.2rem;
   }
   li {
+    font-size: 1.4rem;
+  }
+  .nav-link {
     font-size: 1.4rem;
   }
 }
@@ -287,10 +290,23 @@ a:hover {
   background: url("../Material/img/get the app@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  padding: 2rem 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.btn-platform {
+  background-color: #f63e10;
+  color: #fff;
+  border-radius: 2rem;
+  width: 170px;
+}
+
+.btn-platform:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -45,9 +45,21 @@ a:hover {
   background: url('../Material/img/get\ the\ app@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  padding: 2rem 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.btn-platform {
+  background-color: #f63e10;
+  color: #fff;
+  border-radius: 2rem;
+  width: 170px;
+  &:hover {
+    color: #fff;
+  }
 }

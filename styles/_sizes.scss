@@ -8,7 +8,11 @@ html {
 
 .nav-link {
   font-size: 1.6rem;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
+
 p,
 h1,
 h2,
@@ -52,4 +56,23 @@ h5 {
 li {
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h3,
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1.4rem;
+  }
+  .get-the-app-img {
+    height: 5rem;
+  }
 }

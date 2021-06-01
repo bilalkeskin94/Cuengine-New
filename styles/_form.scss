@@ -1,0 +1,125 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.mail-header {
+  margin-right: 4rem;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 42px;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  margin-top: 2.5rem;
+  font-size: 1.5rem !important;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem;
+  top: 10%;
+  position: relative;
+  color: #fff !important;
+}
+
+.property-form-terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1.5rem;
+  font-size: 1.4rem !important;
+  border: 1px solid #dce0e0;
+  height: 100px;
+  border-radius: 4px;
+  text-align: left;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem;
+  top: 10%;
+  position: relative;
+  color: #fff;
+}
+
+.my-btn {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  color: #f4400c;
+  background-color: #fff;
+  padding: 0 15px;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  border: 1px solid #112454;
+  white-space: nowrap;
+  line-height: 45px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: 20%;
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    border: 1px solid #707070;
+    // background-color: rgba(13, 59, 134, 0.5);
+    border-top: 4px solid #f4400c;
+    height: auto;
+    z-index: 9999;
+    position: relative;
+    padding: 0 3rem;
+    border-radius: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  form#form {
+    border: 1px solid #707070;
+    // background-color: rgba(13, 59, 134, 0.5);
+    border-top: 4px solid #f4400c;
+    height: auto;
+    z-index: 9999;
+    position: relative;
+    padding: 0 3rem;
+    border-radius: 1rem;
+    width: 100%;
+  }
+  form {
+    border: 1px solid #707070;
+    // background-color: rgba(13, 59, 134, 0.5);
+    border-top: 4px solid #f4400c;
+    height: auto;
+    z-index: 9999;
+    position: relative;
+    padding: 0 3rem;
+    border-radius: 1rem;
+    width: 100%;
+  }
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: #f4400c;
+}
+
+textarea::placeholder {
+  font-size: 1.5rem;
+  color: #f4400c;
+}
+
+.my-btn:hover {
+  color: #fff;
+  background-color: #f4400c;
+}
+/*# sourceMappingURL=form.css.map */

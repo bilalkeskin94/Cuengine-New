@@ -11,12 +11,25 @@ body {
 }
 a {
   color: #fff;
+
+  img:hover {
+    transform: scale(1.05);
+  }
+}
+
+li.nav-item {
+  a {
+    img:hover {
+      transform: scale(1.25);
+    }
+  }
 }
 
 a:hover {
   color: #f63e10;
   transform: scale(1.05);
 }
+
 .navbar {
   padding: 1.5rem;
 }

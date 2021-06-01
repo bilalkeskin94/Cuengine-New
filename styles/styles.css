@@ -76,9 +76,6 @@ li {
   li {
     font-size: 1.4rem;
   }
-  .get-the-app-img {
-    height: 5rem;
-  }
 }
 
 .flex {
@@ -251,6 +248,16 @@ body {
 
 a {
   color: #fff;
+}
+
+a img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+li.nav-item a img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 a:hover {

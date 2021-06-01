@@ -18,7 +18,7 @@ document.addEventListener('submit', (e) => {
   const formName = document.getElementById('name').value;
   const formPhone = document.getElementById('phone').value;
   const formMessage = document.getElementById('message').value;
-
+  const companyName = document.getElementById('companyName').value;
   const formData = {
     dataform: '/api/1/dataform/pbynssdk2f/',
     use_field_slug: true,
@@ -29,6 +29,8 @@ document.addEventListener('submit', (e) => {
       phone: formPhone,
 
       message: formMessage,
+
+      company: companyName,
 
       source: 'cuengineturkey.com',
     },
@@ -58,7 +60,6 @@ document.addEventListener('submit', (e) => {
       alert(
         'You have succesfully send your information to us! Our team will contact you shortly.'
       );
-      console.log(data);
       return form.reset();
     })
     .catch((err) => {

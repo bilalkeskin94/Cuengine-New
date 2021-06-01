@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  letter-spacing: 0.4px;
+  padding: 0.5rem;
+  color: #fff;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+h5 {
+  font-size: 3rem;
+  color: #f4400c;
+}
+
+li {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #f63e10;
+}
+
+.navbar {
+  padding: 1.5rem;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.get-the-app {
+  background: url("../Material/img/get the app@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
